@@ -34,17 +34,8 @@
     <!-- Custom CSS Styles-->
     <link rel="stylesheet" href="./styles.css" />
     <!-- jQuery-->
-    <script>
-      $(document).ready(function () {
-        // Check if the window width is less than or equal to 767px (typical mobile devices)
-        if ($(window).width() <= 991) {
-          // Move the .help-hero before .help-container left
-          $(".help-hero").insertBefore(".help-container-wrapper");
-          // Change the image source to the mobile version
-          $(".help-hero img").attr("src", "./images/how-we-help-mobile.png");
-        }
-      });
-    </script>
+    <script type="text/javascript" src="./custom.js"></script>
+
     <title>Vairantzis</title>
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
