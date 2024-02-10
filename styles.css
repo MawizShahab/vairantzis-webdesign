@@ -729,7 +729,7 @@ footer.footer-container-wrapper {
 
   nav.categories {
     margin: 50px 0;
-    /* height: 100vh; */
+    height: 100vh;
   }
 
   nav.categories ul {
@@ -1009,11 +1009,34 @@ footer.footer-container-wrapper {
     padding: 15px 40px;
     font-size: 14px;
   }
+  footer.footer-container-wrapper {
+    padding: 0px 20px 50px 20px;
+  }
 }
 
 /* Media queries to handel the text of the cards for large screens */
 
 @media screen and (min-width: 1024px) and (max-width: 1240px) {
+  nav.extended-nav {
+    padding: 20px !important;
+  }
+  .help-container-wrapper {
+    padding: 80px 20px;
+  }
+
+  footer.footer-container-wrapper {
+    padding: 150px 20px 70px 20px;
+  }
+
+  /* .additional-content .content p {
+    width: 185px !important;
+  } */
+
+  /* .content.one {
+    top: 10px;
+    left: -15px;
+  } */
+
   .additional-content .content p {
     font-size: 10px;
     line-height: 15px;
