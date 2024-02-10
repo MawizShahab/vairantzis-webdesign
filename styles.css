@@ -727,9 +727,19 @@ footer.footer-container-wrapper {
     background-size: 100% 100%;
   }
 
+  .header-container.extended-header.sticky-header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .categories-container.show {
+    height: 300vh;
+  }
+
   nav.categories {
     margin: 50px 0;
-    height: 100vh;
   }
 
   nav.categories ul {
